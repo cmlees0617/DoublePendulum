@@ -1,7 +1,6 @@
 # double_pendulum.py
 # AUTHOR: CALEB M. LEES
 # DATE: 5 July 2020
-# PURPOSE: To create an interactive double pendulum simulation.
 
 import math
 import pygame
@@ -239,4 +238,6 @@ while running:
     draw()
 
     pygame.display.update()
+
     clock.tick(144)
+
